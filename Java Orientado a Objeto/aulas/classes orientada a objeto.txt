@@ -1,0 +1,23 @@
+/* classe O.O */
+
+class Conta {
+	// atributos
+
+	// métodos
+}
+
+
+/* classe Main */
+class principal{
+	public static void main(String[] args) {
+		// chamada da classe
+		Conta conta1 = new Conta();
+
+		// rotinas de execução da classe Conta
+	}
+}
+
+
+
+
+
