@@ -1,0 +1,25 @@
+exemplo de projeto tomcat:
+
+raiz/
+- src/ -> diretório invisível, é ignorado pelo Tomcat
+-- caelum/
+--- ConnectionFactory.java
+- WebContent/ -> diretório público
+-- WEB-INF/ -> diretório inacessível para p browser mas acessível pelo Tomcat. 
+--- classes/
+--- lib/
+-- index.html -> página principal
+
+
+======================================
+configurando o Web.xml, que ensina o Tomcat a abrir a aplicação:
+
+<web-app>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
+
+
+
+

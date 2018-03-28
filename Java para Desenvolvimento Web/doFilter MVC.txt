@@ -1,0 +1,11 @@
+para otimizar conexões com o banco, conecte no doFilter, antes de tudo, e feche depois do chain.doFilter()
+
+Request possui
+- parameters: parametros passados na URL
+- attibutes: 
+
+Defina um atributo para a conexão e passe pro HttpServletRequest(como um cast)
+
+
+
+

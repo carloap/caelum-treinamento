@@ -1,0 +1,14 @@
+Desenvolvimento java para Web:
+
+client-side-
+acessa por navegador -> preenche formulário com usuario e senha.
+
+server-side-
+Servidor -> java
+conecta ao MySQL usando: MySQLDriver.connect()
+ou
+conecta ao Oracle usando: OracleDriver.connect()
+
+===============================
+
+

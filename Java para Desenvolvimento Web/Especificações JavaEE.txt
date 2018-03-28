@@ -1,0 +1,32 @@
+Especificações:
+
+A SUN criou um padrão de especificação para o Java EE, que foi quebrado em várias especificações.
+
+Transação -> JTA
+Autorização e Autenticação -> JAAT
+E-mail -> Java Email
+Web-service -> Jax-WS(Soap) e Jax-RS(Restfull)
+DB -> JPA
+Monitoração -> JMX
+Remotabilidade -> EJB
+Web -> Servlets/JSP/JSF/EL/JSTL
+
+=================================
+
+Applications Servers:
+
+JBoss
+Glassfish
+Websphere
+Weblogic
+SAP Application Server
+
+=================================
+
+Web Servers:
+
+Tomcat
+Jetty
+
+
+

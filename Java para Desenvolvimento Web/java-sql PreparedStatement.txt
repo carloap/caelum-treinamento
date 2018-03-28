@@ -1,0 +1,36 @@
+String sql = "insert into contatos(nome, email, dataCadastro)" + 
+	"values(?, ?, ?);";
+
+Connection conn = new ConnectionFactory().getConnection();
+PreparedStatement pst = c.prepareStatement(sql);
+pst.setString(1, c.getNome());
+pst.setString(2, c.getEmail());
+pst.setDate(3, new java.sql.Date( c.getDataCadastro().getTime() ));
+
+pst.execute;
+
+conn.close();
+
+=======================================
+
+public class Contato {
+	private int id;
+	private String nome;
+	private String email;
+	private Calendar dataCadastro;
+
+	// construtor
+	public Contato() {
+		dataCadastro = Calendar.getInstance(); // pega a data atual
+	
+	}
+
+	// adicionar Getters e Setters
+
+
+
+}
+
+
+
+
