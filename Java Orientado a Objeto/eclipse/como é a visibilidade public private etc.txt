@@ -1,9 +1,0 @@
-Public -> todo mundo visualiza
-
-Protected -> toda a galera do mesmo pacote e quem herda
-
-Default -> somente a galera do mesmo pacote
-
-Private -> somente a própria classe
-
-
